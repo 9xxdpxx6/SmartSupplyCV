@@ -1,0 +1,52 @@
+# === Python ===
+# Игнорировать кэшированные файлы байт-кода
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Игнорировать дистрибутивы и сборки
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Игнорировать виртуальные окружения
+venv/
+env/
+ENV/
+
+# === IDE и редакторы ===
+# PyCharm / IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Vim
+*.swp
+*.swo
+
+# === Операционная система ===
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+vids/
